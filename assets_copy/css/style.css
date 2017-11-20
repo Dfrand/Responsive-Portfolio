@@ -1,0 +1,292 @@
+* {
+	box-sizing: border-box;
+}    
+
+nav {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    text-align: center;
+    height: 68px;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 5%;
+    position: static;
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/dust_scratches.png");
+}
+
+#namefield {
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 10%;
+    height: 68px;
+}
+
+#navigate {
+    margin-top: 3%;
+    float: right;
+    margin-right: 8%;
+    word-spacing: 5px;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+span {
+    color: #dddddd;
+}
+
+#wrapper {
+    width: /*1060px*/100%;
+    margin-left: 6%;
+}
+
+section {
+    float: left;
+    width: 53%;
+}
+
+#content {
+    color: #777777;
+    position: relative;
+    width:540px;
+    margin: 0 auto 5% 10%;
+    background-color: #ffffff;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+
+h2 {
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+    color: #4aaaa5;
+}
+
+aside {
+    float: right;
+    width: 31%;
+}
+
+#connect {
+    float: right;
+    color: #777777;
+    background-color: #ffffff;
+    text-align: center;
+    width: 270px;
+    margin-right: 7%;
+    padding: 0px 0px 15px 0px;
+    margin-bottom: 20%;
+}
+
+#connect h3 {
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #4aaaa5;
+}
+
+#connect a:hover {
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #666666;
+    color: #dddddd;
+    text-align: center;
+    font-size: 10px;
+    height: 50px;
+    padding-top: 20px;
+    clear: both;
+    border-top: 7px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+/*index.html code begin*/
+
+#pic {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+img.resize {
+    width: 150px;
+    height: 180px;
+}
+
+p {
+    line-height: 30px;
+}
+
+
+/*index.html code end*/
+
+
+/*portfolio.html code begin*/
+
+#apps {
+    height: 740px;
+    background-color: #ffffff;
+    width: 100%;
+    display: block;
+}
+
+.app-logo {
+    vertical-align: middle;
+    padding: 24px;
+    padding-left: 0px;
+    display: block-inline;
+    float: left;
+    position: relative;
+}
+
+.app-logo h3 {
+    position: absolute;
+    width: 91.25%;
+    bottom: 35px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.app-logo img {
+    max-width: 100%;
+    width: 240px;
+    height: 180px;
+    border: 3px solid #777777;
+}
+
+
+/*portfolio.html code end*/
+
+
+/*contact.html code begin */
+
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: grab;
+}
+
+input[type=submit]:hover {
+    background-color: #1b6b69;
+}
+
+
+/*contact.html code end*/
+
+
+/*media queries*/
+@media only screen and (max-width: 980px) {
+    /* For desktop: */
+
+  #wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 2%;
+	padding-left: 0%;
+  }
+
+  #content{
+    width: 100%;
+  }
+
+  #connect {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For tablets: */
+
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 2%;
+    padding-left: 0%;
+  }
+
+  #content {
+    width: 100%;
+  }
+
+  #connect {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+    /* For mobile phones: */
+    
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 2%;
+    padding-left: 0%;
+  }
+
+  #content {
+    width: 100%;
+  }
+
+  #connect {
+    margin-top: 40px;
+  }
+    }
