@@ -1,7 +1,3 @@
-* {
-	box-sizing: border-box;
-}    
-
 nav {
     background-color: #ffffff;
     border-color: #cccccc;
@@ -61,7 +57,7 @@ span {
 }
 
 #wrapper {
-    width: /*1060px*/100%;
+    width: 100%;
     margin-left: 6%;
 }
 
@@ -73,7 +69,7 @@ section {
 #content {
     color: #777777;
     position: relative;
-    width:540px;
+    width: 540px;
     margin: 0 auto 5% 10%;
     background-color: #ffffff;
     padding-right: 2%;
@@ -169,6 +165,7 @@ p {
     display: block-inline;
     float: left;
     position: relative;
+
 }
 
 .app-logo h3 {
@@ -237,7 +234,6 @@ input[type=submit]:hover {
     /* For desktop: */
 
   #wrapper {
-    /* Box-model */
     width: 100%;
     padding: 2%;
 	padding-left: 0%;
@@ -257,7 +253,6 @@ input[type=submit]:hover {
 
 
   .wrapper {
-    /* Box-model */
     width: 100%;
     padding: 2%;
     padding-left: 0%;
@@ -276,7 +271,6 @@ input[type=submit]:hover {
     /* For mobile phones: */
     
   .wrapper {
-    /* Box-model */
     width: 100%;
     padding: 2%;
     padding-left: 0%;
